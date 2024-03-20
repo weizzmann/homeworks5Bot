@@ -1,4 +1,4 @@
 python-dotenv
 python-telegram-bot[job-queue]
 pydnevnikruapi
-dateutil
+python-dateutil
