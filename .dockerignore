@@ -1,4 +1,4 @@
-.env
+.git/
 
 build
 dist
@@ -10,15 +10,7 @@ dist
 .tox
 .coverage
 html/*
+__pycache__
 
 # Compiled Documentation
-_build/
-README.rst
-
-# setuptools_scm
-_version.py
-
-env/
-venv/
-.idea/
-*.iml
+docs/_build

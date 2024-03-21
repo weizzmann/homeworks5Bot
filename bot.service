@@ -1,0 +1,14 @@
+[Unit]
+Description=Timeweb Bot Service
+After=network.target
+
+[Service]
+Type=idle
+Restart=always
+RestartSec=3
+User=root
+WorkingDirectory=/usr/src/app
+ExecStart=python bot.py
+
+[Install]
+WantedBy=multi-user.target
